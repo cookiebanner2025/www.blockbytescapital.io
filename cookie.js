@@ -85,7 +85,7 @@ const config = {
     allowedDomains: [],
     
     // Privacy policy URL (configurable)
-    privacyPolicyUrl: 'https://yourdomain.com/privacy-policy', // Add your full privacy policy URL here
+    privacyPolicyUrl: 'https://www.blockbytescapital.io/privacy-notice', // Add your full privacy policy URL here
 
 
 
@@ -169,7 +169,7 @@ clarityConfig: {
         
         // NEW: Restrict user interaction when banner is visible
         restrictInteraction: {
-            enabled: true,          // Turn this ON/OFF
+            enabled: false,          // Turn this ON/OFF
             preventScroll: false,    // Turn scroll blocking ON/OFF
             preventClick: true,     // Turn click blocking ON/OFF
             blurBackground: true,   // Turn blur effect ON/OFF
