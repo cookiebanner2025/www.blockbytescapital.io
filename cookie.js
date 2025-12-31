@@ -2901,6 +2901,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         transition: transform ${config.behavior.modalAnimation.duration}s ${config.behavior.modalAnimation.easing};
         display: flex;
         flex-direction: column;
+        color: black;
     }
 
     .cookie-settings-modal.show .cookie-settings-content {
